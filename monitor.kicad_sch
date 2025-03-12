@@ -1288,7 +1288,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.82) (xy 115.57 83.82)
+			(xy 118.11 83.82) (xy 115.57 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +1328,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 62.23) (xy 161.29 62.23)
+			(xy 154.94 62.23) (xy 161.29 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1478,16 +1478,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 62.23) (xy 129.54 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb753cbb-25ac-4052-b6e0-ac22dd61119f")
-	)
-	(wire
-		(pts
 			(xy 87.63 99.06) (xy 90.17 99.06)
 		)
 		(stroke
@@ -1565,6 +1555,26 @@
 			(justify left bottom)
 		)
 		(uuid "0ac6b9df-dab3-46f5-8021-6c12bc5404c8")
+	)
+	(label "rel_in"
+		(at 118.11 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f6c59e0-4f92-4216-8562-ed5e25954bb3")
+	)
+	(label "rel_in"
+		(at 154.94 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "508aecbc-d5a3-4888-a283-e6115e638bd3")
 	)
 	(label "V matching sensor one, acting as threshold"
 		(at 97.79 99.06 0)
