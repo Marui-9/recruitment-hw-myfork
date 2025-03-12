@@ -2,7 +2,122 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a6356c77-7352-4e3c-b986-d011f3c68a4c")
+	(uuid "b78cf0bd-a775-417c-8b10-c1782ad42271")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 74.93 93.98) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eef1767-4fdb-4e58-b1c8-b8aee7738195")
+	)
+	(wire
+		(pts
+			(xy 88.9 104.14) (xy 125.73 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f8e872-3258-4fe4-8cfe-78e665b01383")
+	)
+	(wire
+		(pts
+			(xy 125.73 104.14) (xy 125.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f8f48f-5d64-4821-9b50-d5f4ddebe568")
+	)
+	(wire
+		(pts
+			(xy 88.9 93.98) (xy 88.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a4c639-c03d-4714-aa1b-319649833daa")
+	)
+	(wire
+		(pts
+			(xy 74.93 81.28) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9604e6-bbde-4692-a747-192633162511")
+	)
+	(label "5V"
+		(at 77.47 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dffa0373-da41-494f-85f8-4446f574ed20")
+	)
+	(hierarchical_label "M_A1V"
+		(shape output)
+		(at 107.95 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21974a94-3b5f-49bc-b1bc-b7453798cf2c")
+	)
+	(hierarchical_label "M_VIN"
+		(shape input)
+		(at 74.93 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36824e4a-2cb4-4827-a470-59c71abaa9e0")
+	)
+	(hierarchical_label "M_A2V"
+		(shape input)
+		(at 125.73 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7372fac7-a2af-4f25-819a-88c94803e699")
+	)
+	(hierarchical_label "M_GND"
+		(shape bidirectional)
+		(at 74.93 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e91deecc-de6d-42a3-86d6-a98cdff9aa0a")
+	)
+	(hierarchical_label "SENS"
+		(shape input)
+		(at 149.86 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "faa953f0-651a-48c2-9ed5-7f023063cb9a")
+	)
 )
