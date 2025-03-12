@@ -2013,7 +2013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e8655ff-d28f-4817-857e-f593b8d37766")
-		(property "Reference" "U1"
+		(property "Reference" "U_Hall_Sensor"
 			(at 177.8 68.5098 90)
 			(effects
 				(font
@@ -2080,7 +2080,7 @@
 		(instances
 			(project ""
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
-					(reference "U1")
+					(reference "U_Hall_Sensor")
 					(unit 1)
 				)
 			)
