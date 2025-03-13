@@ -1159,12 +1159,6 @@
 		(uuid "0307ca68-036a-4344-b076-0d972a54c6d0")
 	)
 	(junction
-		(at 102.87 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b920526-e3bd-407c-b344-969508677fd8")
-	)
-	(junction
 		(at 87.63 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1175,6 +1169,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "791dcd51-df73-47d6-ae7a-de15ca771723")
+	)
+	(junction
+		(at 97.79 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adf283b8-567c-417b-83dd-7cb79c1e668e")
 	)
 	(junction
 		(at 151.13 104.14)
@@ -1258,7 +1258,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 69.85) (xy 92.71 69.85)
+			(xy 85.09 69.85) (xy 151.13 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1298,7 +1298,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 93.98) (xy 105.41 93.98)
+			(xy 97.79 93.98) (xy 105.41 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1345,6 +1345,16 @@
 			(type default)
 		)
 		(uuid "6e43dd5d-6998-43da-bd96-997f824ffe24")
+	)
+	(wire
+		(pts
+			(xy 97.79 81.28) (xy 105.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731be4fe-9f1b-474b-b32f-6e73075c730b")
 	)
 	(wire
 		(pts
@@ -1398,16 +1408,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 69.85) (xy 100.33 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96976099-eba2-4fbb-815f-02d416d6b81d")
-	)
-	(wire
-		(pts
 			(xy 207.01 85.09) (xy 194.31 85.09)
 		)
 		(stroke
@@ -1428,7 +1428,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 81.28) (xy 102.87 93.98)
+			(xy 97.79 81.28) (xy 97.79 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1498,16 +1498,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 81.28) (xy 102.87 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d708389e-2661-493a-b42b-a45b5f1c7e44")
-	)
-	(wire
-		(pts
 			(xy 143.51 76.2) (xy 146.05 76.2)
 		)
 		(stroke
@@ -1515,16 +1505,6 @@
 			(type default)
 		)
 		(uuid "d85702bf-aa0e-46ce-b31f-972e16fc038c")
-	)
-	(wire
-		(pts
-			(xy 102.87 81.28) (xy 105.41 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1da3c7b-1c75-4d15-a5e6-354719eb2f2f")
 	)
 	(wire
 		(pts
@@ -1538,7 +1518,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 81.28) (xy 88.9 81.28)
+			(xy 85.09 81.28) (xy 97.79 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1546,8 +1526,8 @@
 		)
 		(uuid "fc663bde-691b-413d-b05d-26193d53fe62")
 	)
-	(label "V supply for comparator"
-		(at 102.87 69.85 0)
+	(label "5V"
+		(at 148.59 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1585,6 +1565,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ffaf536-26c1-4a64-ac0e-ab86706a89c2")
+	)
+	(label "5V"
+		(at 102.87 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c67beb01-7ae0-4766-a916-b99850cb67e6")
 	)
 	(label "5V"
 		(at 77.47 81.28 0)
@@ -1650,74 +1640,6 @@
 			(justify left)
 		)
 		(uuid "faa953f0-651a-48c2-9ed5-7f023063cb9a")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 96.52 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03e36c99-67e2-4d0e-a034-dae18a259fb0")
-		(property "Reference" "R6"
-			(at 96.52 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 96.52 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 96.52 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4b0dd6bc-061b-4c37-ac5e-06416efd2630")
-		)
-		(pin "1"
-			(uuid "01a46b71-0450-4d18-bb9d-cb65a4b2d693")
-		)
-		(instances
-			(project "recruitment"
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/10220f6e-30e0-4da2-bc7c-0672de199a7a"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:Q_SCR_AGK")
@@ -2002,74 +1924,6 @@
 			(project ""
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/10220f6e-30e0-4da2-bc7c-0672de199a7a"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4355569-8545-48ac-ab17-061fba09e96c")
-		(property "Reference" "R5"
-			(at 92.71 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 92.71 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5a2175bc-56a4-40e8-85c2-fe3c967fe654")
-		)
-		(pin "1"
-			(uuid "a5298ca5-180c-4dae-bf0b-23f473381426")
-		)
-		(instances
-			(project ""
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/10220f6e-30e0-4da2-bc7c-0672de199a7a"
-					(reference "R5")
 					(unit 1)
 				)
 			)
