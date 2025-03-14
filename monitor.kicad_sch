@@ -181,176 +181,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_SCR_AGK"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 1.905 0.635 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_SCR_AGK"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Silicon controlled rectifier, anode/gate/cathode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SCR thyristor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_SCR_AGK_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27) (xy 0 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.635 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_SCR_AGK_1_1"
-				(pin input line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -807,6 +637,287 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SCR:SCR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SCR"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SCR:SOT223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "EPC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Bipolar (BJT) Transistor NPN 40V 200mA 300MHz 300mW Surface Mount SOT-23-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SCR/EPC/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "SCR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SCR/EPC/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SCR_0_0"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.15)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.905 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.905 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Wuerth_450301014042"
 			(pin_names
 				(offset 1)
@@ -1022,10 +1133,16 @@
 		(uuid "64022daa-2207-4850-aa70-412875a30adf")
 	)
 	(junction
-		(at 152.4 69.85)
+		(at 151.13 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8590333f-d171-421c-9d1e-5872a6c57ce7")
+		(uuid "67558083-80f1-4224-9cb4-3df4ce0f453c")
+	)
+	(junction
+		(at 144.78 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e35ced3d-8021-4a16-8282-cdac58a329b8")
 	)
 	(junction
 		(at 85.09 81.28)
@@ -1103,7 +1220,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 69.85) (xy 152.4 69.85)
+			(xy 85.09 69.85) (xy 144.78 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1143,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 78.74) (xy 158.75 78.74)
+			(xy 165.1 80.01) (xy 161.29 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1213,6 +1330,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 69.85) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be89ffb-c358-4a5e-95df-730f87e0ad6a")
+	)
+	(wire
+		(pts
 			(xy 181.61 69.85) (xy 181.61 121.92)
 		)
 		(stroke
@@ -1220,6 +1347,16 @@
 			(type default)
 		)
 		(uuid "629e83da-4be4-4712-9bb9-47aa3961bac2")
+	)
+	(wire
+		(pts
+			(xy 151.13 69.85) (xy 144.78 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74321db3-c840-49e8-8ccb-b927c3d496bf")
 	)
 	(wire
 		(pts
@@ -1233,7 +1370,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 91.44) (xy 165.1 78.74)
+			(xy 165.1 91.44) (xy 165.1 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1303,6 +1440,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 64.77) (xy 160.02 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c714a565-360e-4560-b9f1-b504cfcd4a96")
+	)
+	(wire
+		(pts
 			(xy 88.9 118.11) (xy 88.9 116.84)
 		)
 		(stroke
@@ -1333,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 158.75 73.66)
+			(xy 161.29 64.77) (xy 161.29 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1343,7 +1490,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 83.82) (xy 144.78 62.23)
+			(xy 144.78 62.23) (xy 144.78 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1360,6 +1507,16 @@
 			(type default)
 		)
 		(uuid "d7ec1e14-9661-450d-8139-ab010ce881d5")
+	)
+	(wire
+		(pts
+			(xy 151.13 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d812da32-c7d1-4a09-9fd5-6101aed5a0e6")
 	)
 	(wire
 		(pts
@@ -1381,6 +1538,36 @@
 		)
 		(uuid "0ac6b9df-dab3-46f5-8021-6c12bc5404c8")
 	)
+	(label "556m"
+		(at 99.06 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41900415-53aa-43cb-a8f0-338757209550")
+	)
+	(label "SENS"
+		(at 189.23 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "436a3610-c032-4ef0-9ee4-47408b5b36e5")
+	)
+	(label "556m"
+		(at 142.24 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c54c9e6-9d1c-4edf-8d56-a8aa1a93de12")
+	)
 	(label "rel_in"
 		(at 154.94 62.23 0)
 		(effects
@@ -1391,15 +1578,15 @@
 		)
 		(uuid "508aecbc-d5a3-4888-a283-e6115e638bd3")
 	)
-	(label "V matching sensor one, acting as threshold"
-		(at 99.06 88.9 0)
+	(label "SENS"
+		(at 142.24 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7ffaf536-26c1-4a64-ac0e-ab86706a89c2")
+		(uuid "52834de5-2f17-4460-9b08-26c9b204777e")
 	)
 	(label "rel_in"
 		(at 115.57 83.82 0)
@@ -1646,33 +1833,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_SCR_AGK")
-		(at 156.21 69.85 90)
+		(lib_id "SCR:SCR")
+		(at 154.94 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b86ed209-f1bc-400c-a0f6-2c22f0f5422c")
-		(property "Reference" "D1"
-			(at 156.21 63.5 90)
+		(uuid "77f5a940-4b78-43cc-835f-3fc1a10657d4")
+		(property "Reference" "U3"
+			(at 156.819 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Q_SCR_AGK"
-			(at 156.21 66.04 90)
+		(property "Value" "SCR"
+			(at 156.819 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 69.85 90)
+		(property "Footprint" "SCR:SOT223"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,8 +1877,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 156.21 69.85 90)
+		(property "Description" ""
+			(at 154.94 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,28 +1886,102 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Silicon controlled rectifier, anode/gate/cathode"
-			(at 156.21 69.85 0)
+		(property "MF" "EPC"
+			(at 154.94 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "9195c109-5e17-40d2-828c-e7ff123bd75c")
+		(property "Description_1" "Bipolar (BJT) Transistor NPN 40V 200mA 300MHz 300mW Surface Mount SOT-23-3"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SCR/EPC/view-part/?ref=snap"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SCR"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SCR/EPC/view-part/?ref=eda"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "3108b235-a113-440d-91e6-6df52bacd6c6")
+			(uuid "47bb8db4-4e72-45aa-a580-ad39e2c15411")
 		)
 		(pin "3"
-			(uuid "93d77aa1-f6d1-4364-b94f-c28ef8f5f9e5")
+			(uuid "0a9b5ca6-7507-4362-91d2-1353af64e121")
+		)
+		(pin "2"
+			(uuid "08c88193-6e44-4440-b8c8-860abf9f77a8")
+		)
+		(pin "4"
+			(uuid "a1eb3167-9beb-46be-ac2b-d50740f58d66")
 		)
 		(instances
-			(project "recruitment"
+			(project ""
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1/10220f6e-30e0-4da2-bc7c-0672de199a7a"
-					(reference "D1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1812,7 +2083,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "80"
 			(at 95.25 113.03 90)
 			(effects
 				(font

@@ -11,6 +11,169 @@
 		(company "E-Agle TRT")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Converter_DCDC:OKI-78SR-5_1.5-W36-C"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1168,185 +1331,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:VTRRANDOM"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.0254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "V"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "VTRRANDOM"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Random_voltage_source"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Voltage source, random noise"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Params" "ts=1u td=0 range=1 offset=0"
-				(at 2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Sim.Type" "RANDUNIFORM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VTRRANDOM_0_0"
-				(text "+"
-					(at 0 1.905 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "VTRRANDOM_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy -1.651 1.143) (xy -1.651 -0.254) (xy -1.524 0.508) (xy -1.397 -1.143) (xy -0.889 1.016)
-						(xy -0.762 -0.762) (xy -0.508 0.254) (xy -0.381 -0.508) (xy -0.254 0.381) (xy -0.127 -0.889) (xy 0.381 1.397)
-						(xy 0.508 -1.397) (xy 0.635 0.762) (xy 1.016 -0.381) (xy 1.27 1.397) (xy 1.524 -0.508) (xy 1.778 0.381)
-						(xy 2.032 -0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "VTRRANDOM_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+36V"
 			(power)
 			(pin_numbers
@@ -1593,22 +1577,22 @@
 		(uuid "293cbffe-a372-4c56-9275-64373573dce7")
 	)
 	(junction
+		(at 46.99 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3369f7aa-3374-48ca-8b3a-e654cf694e0c")
+	)
+	(junction
 		(at 115.57 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37fb3ed1-cfcc-4ed6-832c-e2e904a36eee")
 	)
 	(junction
-		(at 46.99 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74020447-5402-409b-9b99-ac5ef2c0eb68")
-	)
-	(junction
 		(at 46.99 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "746f65b3-80a1-4800-828c-f0ba30aefea6")
+		(uuid "3addcde7-c28a-4c46-8d85-75a5cc8c7c15")
 	)
 	(junction
 		(at 74.93 102.87)
@@ -1666,6 +1650,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 87.63) (xy 38.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036f1b1e-c6b8-47f3-9581-90b3e189ddba")
+	)
+	(wire
+		(pts
 			(xy 144.78 52.07) (xy 163.83 52.07)
 		)
 		(stroke
@@ -1693,16 +1687,6 @@
 			(type default)
 		)
 		(uuid "142ec137-f31c-4215-ab27-ba6ec5c3e31b")
-	)
-	(wire
-		(pts
-			(xy 29.21 80.01) (xy 29.21 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1daeaa55-2cc0-4913-9cdc-bd0f9846260f")
 	)
 	(wire
 		(pts
@@ -1756,13 +1740,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 80.01) (xy 67.31 80.01)
+			(xy 38.1 90.17) (xy 38.1 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41417a61-c8eb-44f5-8de9-f68f3a068595")
+		(uuid "37f7aa11-a4d1-4184-80f6-24fe7be69bf5")
 	)
 	(wire
 		(pts
@@ -1783,6 +1767,16 @@
 			(type default)
 		)
 		(uuid "51227257-38de-4327-bb45-911f78380be4")
+	)
+	(wire
+		(pts
+			(xy 38.1 87.63) (xy 38.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5166ff4f-701c-4741-9288-327d2ce993b5")
 	)
 	(wire
 		(pts
@@ -1823,16 +1817,6 @@
 			(type default)
 		)
 		(uuid "5bf52ed7-c5a8-41ae-8e46-962d17f611a5")
-	)
-	(wire
-		(pts
-			(xy 46.99 80.01) (xy 29.21 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61aa8120-aab3-4d89-bbb4-7490ced40267")
 	)
 	(wire
 		(pts
@@ -2016,16 +2000,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 102.87) (xy 46.99 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93a8b109-350e-4aae-aa85-2485e9a39b29")
-	)
-	(wire
-		(pts
 			(xy 201.93 88.9) (xy 184.15 88.9)
 		)
 		(stroke
@@ -2033,6 +2007,16 @@
 			(type default)
 		)
 		(uuid "983e306a-bdb4-4d99-87dc-2bd4f12ecb96")
+	)
+	(wire
+		(pts
+			(xy 46.99 80.01) (xy 67.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74412d6-3074-450d-a03d-71efb1319f33")
 	)
 	(wire
 		(pts
@@ -2086,6 +2070,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 80.01) (xy 46.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c6eaae-ee0e-4dc0-aa93-095ab31a81e2")
+	)
+	(wire
+		(pts
 			(xy 92.71 39.37) (xy 118.11 39.37)
 		)
 		(stroke
@@ -2093,6 +2087,26 @@
 			(type default)
 		)
 		(uuid "da91aad3-cd98-4029-8134-a71369986dc3")
+	)
+	(wire
+		(pts
+			(xy 34.29 90.17) (xy 38.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daeac185-f80d-411f-8080-2c031cb9a411")
+	)
+	(wire
+		(pts
+			(xy 38.1 102.87) (xy 46.99 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4aca54-e05e-4c78-8dcb-c49dda0d800c")
 	)
 	(wire
 		(pts
@@ -2126,6 +2140,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 102.87) (xy 54.61 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46e0668-152a-4f54-9cfb-25420d2c095b")
+	)
+	(wire
+		(pts
 			(xy 118.11 39.37) (xy 163.83 39.37)
 		)
 		(stroke
@@ -2133,16 +2157,6 @@
 			(type default)
 		)
 		(uuid "e88de9b0-6424-45c8-ad88-499793954a7f")
-	)
-	(wire
-		(pts
-			(xy 46.99 102.87) (xy 54.61 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e954094c-c1a3-4156-880d-b5294521a621")
 	)
 	(wire
 		(pts
@@ -2389,7 +2403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O6.35mm_Z4.9mm"
 			(at 118.11 50.8 0)
 			(effects
 				(font
@@ -2727,6 +2741,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 29.21 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fab9cab-38a4-4569-b864-85fb226f27b3")
+		(property "Reference" "J1"
+			(at 29.845 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 29.845 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Samtec_MicroPower:Samtec_UMPS-02-XX.X-X-V-S_1x02_P2.0mm_Socket"
+			(at 29.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 29.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01a2db41-dd64-489d-a536-8ba443b62cdd")
+		)
+		(pin "2"
+			(uuid "aa4364a5-c6c4-45d9-ab36-598d461da18f")
+		)
+		(instances
+			(project ""
+				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 90.17 87.63 180)
 		(unit 1)
@@ -3024,7 +3106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O6.35mm_Z4.9mm"
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -3145,113 +3227,6 @@
 			(project ""
 				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
 					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:VTRRANDOM")
-		(at 29.21 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abe59512-e69e-4afa-85f2-0f82caa0270e")
-		(property "Reference" "V1"
-			(at 33.02 95.1201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VTRRANDOM"
-			(at 33.02 97.6601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Random_voltage_source"
-			(at 29.21 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage source, random noise"
-			(at 29.21 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 29.21 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "ts=1u td=0 range=4 offset=13"
-			(at 33.02 100.2001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Type" "RANDUNIFORM"
-			(at 29.21 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 29.21 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9bb34744-e28e-44fb-be0f-6907fb046e54")
-		)
-		(pin "1"
-			(uuid "3b8ba1c7-48b5-4d7d-a3df-3890c802b55b")
-		)
-		(instances
-			(project ""
-				(path "/bdc7face-9f7c-4701-80bb-4cc144448db1"
-					(reference "V1")
 					(unit 1)
 				)
 			)
