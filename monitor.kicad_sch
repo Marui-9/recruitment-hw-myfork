@@ -1104,6 +1104,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "U2\n"
+		(exclude_from_sim no)
+		(at 155.956 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a5deec2-51d3-4ffd-8d8c-7dd8d418cc77")
+	)
 	(text "Monostable"
 		(exclude_from_sim no)
 		(at 173.736 76.454 0)
